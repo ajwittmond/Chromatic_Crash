@@ -1,0 +1,670 @@
+<?xml version="1.0" ?>
+<Scene>
+	<physics>
+		<scenes>
+			<id>main</id>
+			<bounds>
+				<height>900.0</height>
+				<width>1200.0</width>
+				<y>0.0</y>
+				<x>0.0</x>
+			</bounds>
+			<dynamicFriction>0.0</dynamicFriction>
+			<elasticity>0.0</elasticity>
+			<staticFriction>0.0</staticFriction>
+			<margin>64.0</margin>
+			<gravity>
+				<y>-200.0</y>
+				<x>0.0</x>
+			</gravity>
+		</scenes>
+	</physics>
+	<graphics>
+		<screenHeight>960.0</screenHeight>
+		<scenes>
+			<id>default</id>
+			<screen>
+				<position>
+					<y>450.0</y>
+					<x>600.0</x>
+				</position>
+				<orientation>0.0</orientation>
+				<scale>1.0</scale>
+				<useCenter>true</useCenter>
+			</screen>
+			<background>
+				<height>2000.0</height>
+				<texture>blocks_background</texture>
+				<width>2000.0</width>
+				<tiling>false</tiling>
+				<y>-550.0</y>
+				<x>-400.0</x>
+			</background>
+		</scenes>
+		<currentScene>default</currentScene>
+	</graphics>
+	<FpsCounter x="32.0" y="32.0" t="0.0"/>
+	<Puck x="600.0" y="450.0" t="0.0"/>
+	<TimeAttackManager x="1700.0" y="-173.0869807649999" t="0.0">
+		<config>
+			<timeLimit>90.0</timeLimit>
+			<scoreConfig>
+				<bronze>1000</bronze>
+				<multiComboBonus>10</multiComboBonus>
+				<colorComboEnabled>true</colorComboEnabled>
+				<silver>2000</silver>
+				<colorComboBonus>200</colorComboBonus>
+				<multiHitComboEnabled>true</multiHitComboEnabled>
+				<gold>3000</gold>
+			</scoreConfig>
+		</config>
+	</TimeAttackManager>
+	<square_turret x="200.0" y="200.0" t="2.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>RED</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+			<projectile>bullet</projectile>
+			<firePeriod>1.0</firePeriod>
+		</config>
+	</square_turret>
+	<square_turret x="200.0" y="700.0" t="2.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>RED</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+			<projectile>bullet</projectile>
+			<firePeriod>1.0</firePeriod>
+		</config>
+	</square_turret>
+	<square_turret x="1000.0" y="700.0" t="2.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>RED</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+			<projectile>bullet</projectile>
+			<firePeriod>1.0</firePeriod>
+		</config>
+	</square_turret>
+	<square_turret x="1000.0" y="200.0" t="2.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>RED</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+			<projectile>bullet</projectile>
+			<firePeriod>1.0</firePeriod>
+		</config>
+	</square_turret>
+	<block_long x="200.0" y="450.0" t="2.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</block_long>
+	<block_long x="1000.0" y="450.0" t="2.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</block_long>
+	<block_long x="600.0" y="700.0" t="2.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</block_long>
+	<block_long x="600.0" y="200.0" t="2.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</block_long>
+	<EntityClearBlock x="1316.0" y="128.91301923500015" t="1.25">
+		<config>
+			<entity>null</entity>
+		</config>
+	</EntityClearBlock>
+	<GotoNext x="1443.5267673209996" y="59.91301923500009" t="1.5"/>
+	<str_turret x="50.0" y="62.5" t="1.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>RED</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+			<projectile>bullet</projectile>
+			<firePeriod>1.0</firePeriod>
+		</config>
+	</str_turret>
+	<str_turret x="62.5" y="850.0" t="1.0">
+		<config>
+			<orientation>-1.5707963267948966</orientation>
+			<color>RED</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+			<projectile>bullet</projectile>
+			<firePeriod>1.0</firePeriod>
+		</config>
+	</str_turret>
+	<str_turret x="1150.0" y="837.5" t="1.0">
+		<config>
+			<orientation>3.141592653589793</orientation>
+			<color>RED</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+			<projectile>bullet</projectile>
+			<firePeriod>1.0</firePeriod>
+		</config>
+	</str_turret>
+	<str_turret x="1137.5" y="50.0" t="1.0">
+		<config>
+			<orientation>1.5707963267948966</orientation>
+			<color>RED</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+			<projectile>bullet</projectile>
+			<firePeriod>1.0</firePeriod>
+		</config>
+	</str_turret>
+	<block x="1150.0" y="450.0" t="1.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>GREEN</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</block>
+	<block x="50.0" y="450.0" t="1.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>GREEN</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</block>
+	<block x="600.0" y="50.0" t="1.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>GREEN</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</block>
+	<block x="600.0" y="850.0" t="1.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>GREEN</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</block>
+	<Bouncer x="600.0" y="700.0" t="1.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>PINK</color>
+			<speed>500.0</speed>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</Bouncer>
+	<Bouncer x="600.0" y="200.0" t="1.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>PINK</color>
+			<speed>500.0</speed>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</Bouncer>
+	<PauseButton x="1400.0" y="284.0" t="0.0"/>
+	<Bouncer x="1156.5267673209992" y="449.0" t="2.0">
+		<config>
+			<orientation>-1.5707963267948966</orientation>
+			<color>GREEN</color>
+			<speed>500.0</speed>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</Bouncer>
+	<Bouncer x="52.52676732099883" y="450.0000000000001" t="2.0">
+		<config>
+			<orientation>1.5707963267948966</orientation>
+			<color>GREEN</color>
+			<speed>500.0</speed>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</Bouncer>
+	<EntityClearBlock x="1347.8649491391818" y="131.28201923499984" t="2.25">
+		<config>
+			<entity>null</entity>
+		</config>
+	</EntityClearBlock>
+	<GotoNext x="1416.0" y="-16.0" t="2.5"/>
+	<swivel_turret x="614.0" y="450.0" t="3.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>RED</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+			<projectile>bullet</projectile>
+			<firePeriod>1.0</firePeriod>
+		</config>
+	</swivel_turret>
+	<chargeBox x="249.41040368463558" y="751.0092919622729" t="3.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</chargeBox>
+	<chargeBox x="951.9999999999998" y="744.0" t="3.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</chargeBox>
+	<chargeBox x="946.2285855028179" y="146.18181818181802" t="3.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</chargeBox>
+	<chargeBox x="246.41040368463558" y="149.2727272727272" t="3.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</chargeBox>
+	<health x="1145.0" y="55.0" t="3.0"/>
+	<health x="1145.0" y="845.0" t="3.0"/>
+	<health x="55.0" y="845.0" t="3.0"/>
+	<health x="55.0" y="55.0" t="3.0"/>
+	<health x="545.0" y="455.0" t="2.0"/>
+	<health x="655.0" y="455.0" t="2.0"/>
+	<EntityClearBlock x="571.3761777959998" y="-184.0" t="3.25">
+		<config>
+			<entity>null</entity>
+		</config>
+	</EntityClearBlock>
+	<GotoNext x="1252.823060495" y="-384.0" t="3.5"/>
+	<GotoNext x="-100.0" y="1800.0" t="4.0"/>
+	<swivel_turret x="62.5" y="450.0" t="4.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>GREEN</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+			<projectile>bullet</projectile>
+			<firePeriod>1.0</firePeriod>
+		</config>
+	</swivel_turret>
+	<swivel_turret x="1162.5" y="450.0" t="4.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>GREEN</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+			<projectile>bullet</projectile>
+			<firePeriod>1.0</firePeriod>
+		</config>
+	</swivel_turret>
+	<square_turret x="800.0" y="700.0" t="4.0">
+		<config>
+			<orientation>0.7853981633974483</orientation>
+			<color>RED</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+			<projectile>bullet</projectile>
+			<firePeriod>1.0</firePeriod>
+		</config>
+	</square_turret>
+	<square_turret x="400.0" y="700.0" t="4.0">
+		<config>
+			<orientation>0.7853981633974483</orientation>
+			<color>RED</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+			<projectile>bullet</projectile>
+			<firePeriod>1.0</firePeriod>
+		</config>
+	</square_turret>
+	<block x="1150.0" y="50.0" t="4.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>GREEN</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</block>
+	<block x="50.0" y="50.0" t="4.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>GREEN</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</block>
+	<block x="50.0" y="850.0" t="4.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>GREEN</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</block>
+	<block x="1150.0" y="850.0" t="4.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>GREEN</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</block>
+	<flower x="400.0" y="600.0" t="4.0">
+		<config>
+			<orientation>0.0</orientation>
+			<time>10.0</time>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</flower>
+	<flower x="400.0" y="500.0" t="4.0">
+		<config>
+			<orientation>0.0</orientation>
+			<time>10.0</time>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</flower>
+	<flower x="400.0" y="400.0" t="4.0">
+		<config>
+			<orientation>0.0</orientation>
+			<time>10.0</time>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</flower>
+	<flower x="800.0" y="600.0" t="4.0">
+		<config>
+			<orientation>0.0</orientation>
+			<time>10.0</time>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</flower>
+	<flower x="800.0" y="512.3404343910087" t="4.0">
+		<config>
+			<orientation>0.0</orientation>
+			<time>10.0</time>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</flower>
+	<flower x="800.0" y="400.0" t="4.0">
+		<config>
+			<orientation>0.0</orientation>
+			<time>10.0</time>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</flower>
+	<flower x="300.0" y="700.0" t="4.0">
+		<config>
+			<orientation>0.0</orientation>
+			<time>10.0</time>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</flower>
+	<flower x="400.0" y="810.5222525728274" t="4.0">
+		<config>
+			<orientation>0.0</orientation>
+			<time>10.0</time>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</flower>
+	<flower x="500.0" y="700.0" t="4.0">
+		<config>
+			<orientation>0.0</orientation>
+			<time>10.0</time>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</flower>
+	<flower x="700.0" y="700.0" t="4.0">
+		<config>
+			<orientation>0.0</orientation>
+			<time>10.0</time>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</flower>
+	<flower x="800.0" y="800.0" t="4.0">
+		<config>
+			<orientation>0.0</orientation>
+			<time>10.0</time>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</flower>
+	<flower x="900.0" y="700.0" t="4.0">
+		<config>
+			<orientation>0.0</orientation>
+			<time>10.0</time>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</flower>
+	<block x="739.1366189495448" y="50.0" t="4.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</block>
+	<block x="650.0" y="50.0" t="4.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</block>
+	<block x="550.0" y="50.0" t="4.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</block>
+	<block x="450.0" y="50.0" t="4.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</block>
+	<LevelEnd x="1100.0" y="-200.0" t="4.25"/>
+</Scene>

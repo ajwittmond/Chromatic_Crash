@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Scene>
+	<physics>
+		<scenes>
+			<id>main</id>
+			<bounds>
+				<height>900.0</height>
+				<width>1200.0</width>
+				<y>0.0</y>
+				<x>0.0</x>
+			</bounds>
+			<dynamicFriction>0.0</dynamicFriction>
+			<elasticity>0.0</elasticity>
+			<staticFriction>0.0</staticFriction>
+			<margin>64.0</margin>
+			<gravity>
+				<y>-200.0</y>
+				<x>0.0</x>
+			</gravity>
+		</scenes>
+	</physics>
+	<graphics>
+		<screenHeight>960.0</screenHeight>
+		<scenes>
+			<id>default</id>
+			<screen>
+				<position>
+					<y>450.0</y>
+					<x>600.0</x>
+				</position>
+				<orientation>0.0</orientation>
+				<scale>1.0</scale>
+				<useCenter>true</useCenter>
+			</screen>
+			<background>
+				<height>2000.0</height>
+				<texture>circles_background</texture>
+				<width>2000.0</width>
+				<tiling>false</tiling>
+				<y>-550.0</y>
+				<x>-400.0</x>
+			</background>
+		</scenes>
+		<currentScene>default</currentScene>
+	</graphics>
+	<Puck x="600.0" y="452.0" t="0.0"/>
+	<TimeAttackManager x="-184.0" y="141.291473685985" t="0.0">
+		<config>
+			<timeLimit>100.0</timeLimit>
+			<scoreConfig>
+				<bronze>1600</bronze>
+				<multiComboBonus>10</multiComboBonus>
+				<colorComboEnabled>true</colorComboEnabled>
+				<silver>1800</silver>
+				<colorComboBonus>200</colorComboBonus>
+				<multiHitComboEnabled>true</multiHitComboEnabled>
+				<gold>2000</gold>
+			</scoreConfig>
+		</config>
+	</TimeAttackManager>
+	<PauseButton x="-232.35725862499612" y="416.0" t="0.0"/>
+	<chargeBox x="100.0" y="100.0" t="1.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>RED</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</chargeBox>
+	<chargeBox x="100.0" y="800.0" t="1.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>RED</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</chargeBox>
+	<chargeBox x="1100.0" y="800.0" t="1.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>GREEN</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</chargeBox>
+	<chargeBox x="1090.7009291348036" y="90.97988403811257" t="1.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>RED</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</chargeBox>
+	<chargeBox x="100.0" y="800.0" t="10.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>GREEN</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</chargeBox>
+	<chargeBox x="100.0" y="100.0" t="10.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>GREEN</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</chargeBox>
+	<chargeBox x="1100.0" y="100.0" t="10.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>GREEN</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</chargeBox>
+	<chargeBox x="1100.0" y="800.0" t="10.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</chargeBox>
+	<chargeBox x="100.0" y="800.0" t="20.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</chargeBox>
+	<chargeBox x="100.0" y="100.0" t="20.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</chargeBox>
+	<chargeBox x="1100.0" y="100.0" t="20.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</chargeBox>
+	<flower x="1080.0" y="810.0" t="20.25">
+		<config>
+			<orientation>0.0</orientation>
+			<time>10.0</time>
+			<color>RED</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</flower>
+	<flower x="960.0" y="720.0" t="20.5">
+		<config>
+			<orientation>0.0</orientation>
+			<time>10.0</time>
+			<color>RED</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</flower>
+	<flower x="840.0" y="630.0" t="20.75">
+		<config>
+			<orientation>0.0</orientation>
+			<time>10.0</time>
+			<color>RED</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</flower>
+	<flower x="720.0" y="540.0" t="21.0">
+		<config>
+			<orientation>0.0</orientation>
+			<time>10.0</time>
+			<color>RED</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</flower>
+	<flower x="600.0" y="450.0" t="21.25">
+		<config>
+			<orientation>0.0</orientation>
+			<time>10.0</time>
+			<color>RED</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</flower>
+	<flower x="480.0" y="360.0" t="21.5">
+		<config>
+			<orientation>0.0</orientation>
+			<time>10.0</time>
+			<color>RED</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</flower>
+	<flower x="360.0" y="270.0" t="21.75">
+		<config>
+			<orientation>0.0</orientation>
+			<time>10.0</time>
+			<color>RED</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</flower>
+	<flower x="240.0" y="180.0" t="22.0">
+		<config>
+			<orientation>0.0</orientation>
+			<time>10.0</time>
+			<color>RED</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</flower>
+	<chargeBox x="120.0" y="810.0" t="30.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>RANDOM</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</chargeBox>
+	<chargeBox x="360.0" y="630.0" t="30.25">
+		<config>
+			<orientation>0.0</orientation>
+			<color>RANDOM</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</chargeBox>
+	<chargeBox x="600.0" y="450.0" t="30.5">
+		<config>
+			<orientation>0.0</orientation>
+			<color>RANDOM</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</chargeBox>
+	<chargeBox x="840.0" y="270.0" t="30.75">
+		<config>
+			<orientation>0.0</orientation>
+			<color>RANDOM</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</chargeBox>
+	<chargeBox x="1080.0" y="90.0" t="31.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>RANDOM</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</chargeBox>
+	<EntityClearBlock x="416.0" y="300.0" t="1.25">
+		<config>
+			<entity>null</entity>
+		</config>
+	</EntityClearBlock>
+	<EntityClearBlock x="616.0" y="384.0" t="10.25">
+		<config>
+			<entity>null</entity>
+		</config>
+	</EntityClearBlock>
+	<EntityClearBlock x="600.0" y="284.0" t="22.25">
+		<config>
+			<entity>null</entity>
+		</config>
+	</EntityClearBlock>
+	<LevelEnd x="671.1317624242424" y="500.0" t="31.25"/>
+	<GotoNext x="784.0" y="555.0856521212121" t="1.5"/>
+	<GotoNext x="973.9270024242423" y="429.2666254545454" t="10.5"/>
+	<EntityClearBlock x="964.2486157575756" y="675.3741721212122" t="22.5">
+		<config>
+			<entity>null</entity>
+		</config>
+	</EntityClearBlock>
+	<GotoNext x="716.0" y="400.0" t="22.75"/>
+</Scene>

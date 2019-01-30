@@ -1,0 +1,175 @@
+<?xml version="1.0" ?>
+<Manifest>
+	<Assets>
+		<music id="citric_wedge" src="citric_wedge_loop_final"/>
+		<music id="scene_select" src="collide_menu_final"/>
+        <music id="chip_sauce" src="chip_sauce_loop"/>
+		<texture id="options_icon" src="options_icon"/>
+		<texture id="arrow_pink" src="arrow_pink" w="512" h="256">
+			<cycle id="main" start="0" end="1" looped="false"/>
+		</texture>
+		<texture id="pause_button" src="pause_button"/>
+		<texture id="petal_green" src="petal_green"/>
+		<texture id="bouncer_green" src="bouncer_green"/>
+		<texture id="explosion_part" src="explosion_part"/>
+		<texture id="grabber_pink" src="grabber_pink"/>
+		<texture id="pulser_pink" src="pulser_pink"/>
+		<texture id="turret_square_pink" src="turret_square_pink"/>
+		<texture id="splitter_green" src="splitter_green"/>
+		<texture id="arrow_green" src="arrow_green" w="512" h="256">
+			<cycle id="main" start="0" end="1" looped="false"/>
+		</texture>
+		<texture id="bouncer_pink" src="bouncer_pink"/>
+		<texture id="block_red" src="block_red"/>
+		<texture id="play_button" src="play_button"/>
+		<texture id="circle_small" src="circle_small"/>
+		<texture id="flower_green" src="flower_green"/>
+		<texture id="turret_single_red" src="turret_single_red"/>
+		<texture id="information_icon" src="information_icon"/>
+		<texture id="unlock" src="un_lock"/>
+		<texture id="health_pickup" src="health_pickup"/>
+		<texture id="blocks_background" src="blocks_background"/>
+		<texture id="radial_pulse" src="radial_pulse"/>
+		<texture id="grabber_green" src="grabber_green"/>
+		<texture id="box_pink" src="box_pink"/>
+		<texture id="block_long_pink" src="block_long_pink"/>
+		<texture id="spark" src="spark"/>
+		<texture id="spinner" src="spinner"/>
+		<texture id="time_pickup" src="time_pickup"/>
+		<texture id="rocket_pink" src="rocket_pink"/>
+		<texture id="turret_square_green" src="turret_square_green"/>
+		<texture id="exit_icon" src="exit_icon"/>
+		<texture id="bouncer_red" src="bouncer_red"/>
+		<texture id="bomb" src="bomb1"/>
+		<texture id="wave" src="wave"/>
+		<texture id="pause_menu" src="pause_menu"/>
+		<texture id="flare" src="flare"/>
+		<texture id="block_green" src="block_green"/>
+		<texture id="cross" src="cross"/>
+		<texture id="petal_red" src="petal_red"/>
+		<texture id="wavy_background" src="wavy_background"/>
+		<texture id="circles_background" src="circles_background"/>
+		<texture id="turret_single_pink" src="turret_single_pink"/>
+		<texture id="circle_large" src="circle_large"/>
+		<texture id="pulser_red" src="pulser_red"/>
+		<texture id="blank_black" src="blank_black"/>
+		<texture id="rocket_red" src="rocket_red"/>
+		<texture id="petal_pink" src="petal_pink"/>
+		<texture id="flower_pink" src="flower_pink"/>
+		<texture id="box_green" src="box_green"/>
+		<texture id="rocket_green" src="rocket_green"/>
+		<texture id="box_red" src="box_red"/>
+		<texture id="gold" src="gold"/>
+		<texture id="puck" src="puck_final"/>
+		<texture id="block_pink" src="block_pink"/>
+		<texture id="arrow_red" src="arrow_red" w="512" h="256">
+			<cycle id="main" start="0" end="1" looped="false"/>
+		</texture>
+		<texture id="block_long_red" src="block_long_red"/>
+		<texture id="bouncer_invulnerable" src="bouncer_invulnerable"/>
+		<texture id="turret_single_green" src="turret_single_green"/>
+		<texture id="clock" src="clock"/>
+		<texture id="grabber_red" src="grabber_red"/>
+		<texture id="splitter_pink" src="splitter_pink"/>
+		<texture id="back_button" src="back_button"/>
+		<texture id="silver" src="silver"/>
+		<texture id="turret_square_red" src="turret_square_red"/>
+		<texture id="lock" src="lock"/>
+		<texture id="flower_red" src="flower_red"/>
+		<texture id="curvy_background" src="curvy_background"/>
+		<texture id="spiral" src="spiral"/>
+		<texture id="swivel_turret_red" src="swivel_turret_red"/>
+		<texture id="bronze" src="bronze"/>
+		<texture id="field" src="field"/>
+		<texture id="block_long_green" src="block_long_green"/>
+		<texture id="splitter_red" src="splitter_red"/>
+		<texture id="swivel_turret_pink" src="swivel_turret_pink"/>
+		<texture id="triangle" src="triangle"/>
+		<texture id="swivel_turret_green" src="swivel_turret_green"/>
+		<texture id="pulser_green" src="pulser_green"/>
+		<texture id="leader_boards_icon" src="leader_boards_icon"/>
+		<texture id="blank_white" src="blank_white"/>
+        <texture id="pink_spinner" src="pink_spinner"/>
+        <texture id="cancel_button" src="cancel_button"/>
+        <texture id="menu_background" src="menu_background"/>
+        <texture id="arrow" src="arrow"/>
+        <texture id="instructions_1" src="instructions_1"/>
+        <texture id="instructions_2" src="instructions_2"/>
+        <texture id="instructions_3" src="instructions_3"/>
+        <texture id="instructions_4" src="instructions_4"/>
+        <texture id="restart" src="restart_button"/>
+        <texture id="next" src="next"/>
+        <texture id="credits" src="credits"/>
+        <texture id="help_icon" src="help_icon"/>
+		<sound id="blast" src="blast_mike_koenig"/>
+		<sound id="wood_wack" src="wood_wack_mike_koenig"/>
+		<sound id="blip" src="blip"/>
+		<sound id="concrete_slap" src="movingplaid_slap_concrete"/>
+		<sound id="air_horn" src="air_horn_mike_koenig"/>
+		<sound id="click" src="radiy_click_mod"/>
+        <sound id="menu_click" src="radiy_click"/>
+		<sound id="end_flourish" src="end_flourish"/>
+		<sound id="pulse" src="pulse"/>
+		<sound id="arrow_charge" src="arrow_charge"/>
+		<sound id="cannon" src="baefild_cannon"/>
+		<sound id="trill_3" src="trill_3_f"/>
+		<sound id="trill_2" src="trill_2_f"/>
+		<sound id="trill_1" src="trill_1_f"/>
+		<sound id="splat" src="yottasounds_splat"/>
+		<sound id="messy_splat" src="foolboymedia_messy_splat"/>
+		<sound id="concrete_step" src="movingplaid_concrete_step_2"/>
+		<sound id="crate_break" src="crate_break"/>
+		<sound id="ping" src="timgormly_metal_ping"/>
+		<sound id="metal_impact" src="roganderrick_metal_impact"/>
+		<sound id="chime_chord" src="chime_chord"/>
+		<sound id="fuse" src="fuse"/>
+		<sound id="crack" src="crack_of_branch"/>
+		<sound id="crack_of_branch" src="crack_of_branch"/>
+		<sound id="trill_4" src="trill_4"/>
+		<sound id="electric_smash" src="smashing_yuri_santana"/>
+		<sound id="glass_breaking" src="glass_breaking_mike_koenig"/>
+		<sound id="mirror_break" src="mirror_break_mike_koenig"/>
+		<sound id="chime" src="chime"/>
+		<sound id="charge" src="charge_sfx"/>
+		<sound id="metal_hit" src="dasdeer__metal_hit_7_mod"/>
+		<sound id="porcelain_break" src="agaxly_breaking_glass_mod"/>
+		<sound id="woosh" src="woosh_mark_diangelo"/>
+        <sound id="pulser_sound" src="pulser_sound"/>
+        <sound id="grab" src="grab"/>
+        <texture id="google_play_button" src="google_play_button"/>
+	</Assets>
+	<Scenes default="title_scene">
+		<time_pulsers config="time_pulsers"/>
+		<time_blocks config="time_blocks"/>
+		<test config="test_level"/>
+		<bounders_2 config="bounders_2"/>
+		<splitter_bounders config="splitter_bounders"/>
+		<pulser_intro config="pulser_intro"/>
+		<rocket_intro config="rocket_intro"/>
+		<time_arrows_boxes config="time_arrows_boxes"/>
+		<boxes_and_arrows_and_bombs config="boxes_and_arrows_and_bombs"/>
+		<level_3 config="level_3"/>
+		<time_bouncers config="time_bouncers"/>
+		<turret_intro config="turret_intro"/>
+		<bouncer_intro config="bouncer_intro"/>
+		<time_rockets config="time_rockets"/>
+		<diagonal config="diagonal"/>
+		<scene_select config="newer_scene_select"/>
+		<title_scene config="title_scene"/>
+		<level_2 config="level_2"/>
+		<level_1 config="level_1"/>
+		<arrow_level config="arrow_level"/>
+		<grabber_intro config="grabber_intro"/>
+		<flower_level config="flower_level"/>
+		<time_flowers_bombs config="time_flowers_bombs"/>
+		<rocket_demo config="rocket_demo"/>
+		<test_physics config="test_context"/>
+		<splitters_intro config="splitters_intro"/>
+		<box_level config="box_level"/>
+		<boxes_and_bombs config="boxes_and_bombs"/>
+		<break_break config="break_break"/>
+		<infinite config="infinite"/>
+		<time_splitters config="time_splitters"/>
+		<boxes_and_arrows config="boxes"/>
+	</Scenes>
+</Manifest>

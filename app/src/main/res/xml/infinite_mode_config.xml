@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InfiniteModeConfig>
+    <!--add characters: (o)uter (i)nner (m)iddle  -->
+
+    <!--Bonuses -->
+    <Event bonus="true" addable="false">
+        <SpiralSpawner x="600" y="450" t="0" addString="oimct">
+            <config>
+                <enemy>flower</enemy>
+                <interval>0.1</interval>
+                <number>50</number>
+                <colors>RED</colors>
+                <colors>GREEN</colors>
+                <colors>PINK</colors>
+
+                <rotations>5</rotations>
+                <endRadius>440</endRadius>
+                <speed>500</speed>
+                <orientation>0</orientation>
+                <startTheta>0</startTheta>
+                <rotate>true</rotate>
+                <clockWise>true</clockWise>
+            </config>
+        </SpiralSpawner>
+    </Event>
+
+    <!--waves 0-5 bombs and flowers-->
+    <Event minWave="0" maxWave="10" bonus="false" addable="true" addString="o">
+        <BoxSpawner x="984.0" y="438.9999999999999" t="0.0">
+            <config>
+                <enemy>flower</enemy>
+                <orientation>0.0</orientation>
+                <startCorner>0</startCorner>
+                <interval>0.1</interval>
+                <rotate>true</rotate>
+                <speed>0.0</speed>
+                <colors>RANDOM</colors>
+                <random>false</random>
+                <number>16</number>
+                <box>
+                    <height>800.0</height>
+                    <width>1100.0</width>
+                    <y>50.0</y>
+                    <x>50.0</x>
+                </box>
+            </config>
+        </BoxSpawner>
+    </Event>
+    <Event minWave="0" maxWave="15" bonus="false" addable="true" addString="m">
+        <BoxSpawner x="300" y="225" t="0.0">
+            <config>
+                <enemy>flower</enemy>
+                <orientation>0.0</orientation>
+                <startCorner>2</startCorner>
+                <interval>0.1</interval>
+                <rotate>true</rotate>
+                <speed>0.0</speed>
+                <colors>RANDOM</colors>
+                <random>false</random>
+                <number>12</number>
+                <box>
+                    <height>450.0</height>
+                    <width>600.0</width>
+                    <y>225.0</y>
+                    <x>300.0</x>
+                </box>
+            </config>
+        </BoxSpawner>
+    </Event>
+    <Event minWave="0" maxWave="15" bonus="false" addable="true" addString="i">
+        <BoxSpawner x="300" y="225" t="0.0">
+            <config>
+                <enemy>flower</enemy>
+                <orientation>0.0</orientation>
+                <startCorner>0</startCorner>
+                <interval>0.2</interval>
+                <rotate>true</rotate>
+                <speed>0.0</speed>
+                <colors>RANDOM</colors>
+                <random>false</random>
+                <number>8</number>
+                <box>
+                    <height>225.0</height>
+                    <width>300.0</width>
+                    <y>347.5</y>
+                    <x>450.0</x>
+                </box>
+            </config>
+        </BoxSpawner>
+    </Event>
+    <Event maxWave="10" bonus="false" addString="i">
+        <CircleSpawner x="600" y="450">
+            <config>
+                <enemy>flower</enemy>
+                <interval>0.5</interval>
+                <number>20</number>
+                <colors>RANDOM</colors>
+                <speed>200</speed>
+                <orientation>0</orientation>
+                <radius>1</radius>
+                <rotate>true</rotate>
+                <rotations>1</rotations>
+                <clockWise>true</clockWise>
+            </config>
+        </CircleSpawner>
+    </Event>
+    <Event minWave="0" maxWave="10"  bonus="false" addString="ob">
+        <BoxSpawner x="984.0" y="438.9999999999999" t="0.0">
+            <config>
+                <enemy>bomb</enemy>
+                <orientation>0.0</orientation>
+                <startCorner>0</startCorner>
+                <interval>0.1</interval>
+                <rotate>true</rotate>
+                <speed>0.0</speed>
+                <colors>RANDOM</colors>
+                <random>false</random>
+                <number>16</number>
+                <box>
+                    <height>700.0</height>
+                    <width>1000.0</width>
+                    <y>100.0</y>
+                    <x>100.0</x>
+                </box>
+            </config>
+        </BoxSpawner>
+    </Event>
+    <Event minWave="0" maxWave="15" bonus="false" addString="mb">
+        <BoxSpawner x="300" y="225" t="0.0">
+            <config>
+                <enemy>bomb</enemy>
+                <orientation>0.0</orientation>
+                <startCorner>2</startCorner>
+                <interval>0.1</interval>
+                <rotate>true</rotate>
+                <speed>0.0</speed>
+                <colors>RANDOM</colors>
+                <random>false</random>
+                <number>8</number>
+                <box>
+                    <height>450.0</height>
+                    <width>600.0</width>
+                    <y>225.0</y>
+                    <x>300.0</x>
+                </box>
+            </config>
+        </BoxSpawner>
+    </Event>
+    <Event minWave="0" maxWave="15" bonus="false" addString="i">
+        <BoxSpawner x="300" y="225" t="0.0">
+            <config>
+                <enemy>bomb</enemy>
+                <orientation>0.0</orientation>
+                <startCorner>0</startCorner>
+                <interval>0.2</interval>
+                <rotate>true</rotate>
+                <speed>0.0</speed>
+                <colors>RANDOM</colors>
+                <random>false</random>
+                <number>4</number>
+                <box>
+                    <height>225.0</height>
+                    <width>300.0</width>
+                    <y>347.5</y>
+                    <x>450.0</x>
+                </box>
+            </config>
+        </BoxSpawner>
+    </Event>
+    <Event minWave="0" maxWave="15" bonus="false" addString="ib">
+        <CircleSpawner x="600" y="450">
+            <config>
+                <enemy>bomb</enemy>
+                <interval>0.5</interval>
+                <number>20</number>
+                <colors>GREEN</colors>
+                <colors>PINK</colors>
+                <speed>300</speed>
+                <orientation>0</orientation>
+                <radius>1</radius>
+                <rotate>true</rotate>
+                <rotations>1</rotations>
+                <clockWise>true</clockWise>
+            </config>
+        </CircleSpawner>
+    </Event>
+    <Event minWave="0" maxWave ="10" bonus="false" addable="true" addString="ob">
+        <CircleSpawner x="600.0" y="450" t="0.0">
+            <config>
+                <enemy>bomb</enemy>
+                <orientation>3.1415964</orientation>
+                <interval>0.5</interval>
+                <rotate>true</rotate>
+                <colors>GREEN</colors>
+                <colors>RED</colors>
+                <random>false</random>
+                <number>16</number>
+                <radius>400</radius>
+                <clockWise>true</clockWise>
+                <startTheta>0</startTheta>
+                <speed>200</speed>
+            </config>
+        </CircleSpawner>
+    </Event>
+
+    <!--waves 6-10 introduction of boxes and arrows-->
+    <Event minWave="6" bonus="false" addable="true" addString="oa">
+        <CircleSpawner x="600.0" y="450" t="0.0">
+            <config>
+                <enemy>arrow</enemy>
+                <orientation>3.1415964</orientation>
+                <interval>0.5</interval>
+                <rotate>true</rotate>
+                <speed>0.0</speed>
+                <colors>RED</colors>
+                <colors>GREEN</colors>
+                <random>false</random>
+                <number>8</number>
+                <radius>400</radius>
+                <clockWise>true</clockWise>
+                <startTheta>3.1415964</startTheta>
+            </config>
+        </CircleSpawner>
+    </Event>
+    <Event minWave="6" bonus="false" addable="true" addString="ma">
+        <CircleSpawner x="600.0" y="450" t="0.0">
+            <config>
+                <enemy>arrow</enemy>
+                <orientation>0.0</orientation>
+                <interval>0.5</interval>
+                <rotate>true</rotate>
+                <speed>0.0</speed>
+                <colors>PINK</colors>
+                <colors>RED</colors>
+                <random>false</random>
+                <number>6</number>
+                <radius>250</radius>
+            </config>
+        </CircleSpawner>
+    </Event>
+    <Event bonus="false" minWave="11" addString="ia">
+        <CircleSpawner x="600" y="450">
+            <config>
+                <enemy>arrow</enemy>
+                <interval>0.5</interval>
+                <number>12</number>
+                <colors>RANDOM</colors>
+                <speed>100</speed>
+                <orientation>0</orientation>
+                <radius>1</radius>
+                <rotate>true</rotate>
+                <rotations>1</rotations>
+                <clockWise>true</clockWise>
+            </config>
+        </CircleSpawner>
+    </Event>
+    <Event minWave="6"  bonus="false" addString="o">
+        <BoxSpawner x="984.0" y="438.9999999999999" t="0.0">
+            <config>
+                <enemy>chargeBox</enemy>
+                <orientation>0.0</orientation>
+                <startCorner>0</startCorner>
+                <interval>0.1</interval>
+                <rotate>true</rotate>
+                <speed>0.0</speed>
+                <colors>RED</colors>
+                <colors>GREEN</colors>
+                <random>false</random>
+                <number>8</number>
+                <box>
+                    <height>700.0</height>
+                    <width>1000.0</width>
+                    <y>100.0</y>
+                    <x>100.0</x>
+                </box>
+            </config>
+        </BoxSpawner>
+    </Event>
+    <Event minWave="6" bonus="false" addString="m">
+        <BoxSpawner x="300" y="225" t="0.0">
+            <config>
+                <enemy>chargeBox</enemy>
+                <orientation>0.0</orientation>
+                <startCorner>2</startCorner>
+                <interval>0.1</interval>
+                <rotate>true</rotate>
+                <speed>0.0</speed>
+                <colors>RED</colors>
+                <random>false</random>
+                <number>4</number>
+                <box>
+                    <height>450.0</height>
+                    <width>600.0</width>
+                    <y>225.0</y>
+                    <x>300.0</x>
+                </box>
+            </config>
+        </BoxSpawner>
+    </Event>
+    <Event minWave="6" bonus="false" addString="omba">
+        <LineSpawner>
+            <config>
+                <enemy>arrow</enemy>
+                <interval>0.2</interval>
+                <number>8</number>
+                <colors>GREEN</colors>
+
+                <startPoint x="100" y="100"/>
+                <endPoint x="1100" y="100"/>
+                <useNormal>true</useNormal>
+            </config>
+        </LineSpawner>
+        <LineSpawner>
+            <config>
+                <enemy>bomb</enemy>
+                <interval>0.2</interval>
+                <number>8</number>
+                <colors>RED</colors>
+
+                <startPoint x="100" y="800"/>
+                <endPoint x="1100" y="800"/>
+                <useNormal>true</useNormal>
+            </config>
+        </LineSpawner>
+    </Event>
+    <Event minWave="6" bonus="false" addString="omba">
+        <LineSpawner>
+            <config>
+                <enemy>arrow</enemy>
+                <interval>0.2</interval>
+                <number>6</number>
+                <colors>PINK</colors>
+
+                <startPoint x="100" y="800"/>
+                <endPoint x="100" y="100"/>
+                <useNormal>true</useNormal>
+            </config>
+        </LineSpawner>
+        <LineSpawner>
+            <config>
+                <enemy>bomb</enemy>
+                <interval>0.2</interval>
+                <number>6</number>
+                <colors>GREEN</colors>
+
+                <startPoint x="1100" y="800"/>
+                <endPoint x="1100" y="100"/>
+                <useNormal>true</useNormal>
+            </config>
+        </LineSpawner>
+    </Event>
+
+    <!-- wave 11-15 introduction of blocks bouncers and turrets-->
+    <Event minWave="11" bonus="false" addString="m">
+        <Bouncer x="600.0" y="700.0" t="0.0">
+            <config>
+                <orientation>0.0</orientation>
+                <color>RED</color>
+                <speed>500.0</speed>
+                <angularVelocity>0.0</angularVelocity>
+                <velocity>
+                    <y>0.0</y>
+                    <x>0.0</x>
+                </velocity>
+            </config>
+        </Bouncer>
+        <Bouncer x="600.0" y="200.0" t="0.0">
+            <config>
+                <orientation>3.1415962</orientation>
+                <color>RED</color>
+                <speed>500.0</speed>
+                <angularVelocity>0.0</angularVelocity>
+                <velocity>
+                    <y>0.0</y>
+                    <x>0.0</x>
+                </velocity>
+            </config>
+        </Bouncer>
+    </Event>
+    <Event minWave="11" bonus="false" addString="m">
+        <Bouncer x="900.0" y="450.0" t="0.0">
+            <config>
+                <orientation>-1.5707963267948966</orientation>
+                <color>GREEN</color>
+                <speed>500.0</speed>
+                <angularVelocity>0.0</angularVelocity>
+                <velocity>
+                    <y>0.0</y>
+                    <x>0.0</x>
+                </velocity>
+            </config>
+        </Bouncer>
+        <Bouncer x="300.0" y="450.0" t="0.0">
+            <config>
+                <orientation>1.5707963267948966</orientation>
+                <color>GREEN</color>
+                <speed>500.0</speed>
+                <angularVelocity>0.0</angularVelocity>
+                <velocity>
+                    <y>0.0</y>
+                    <x>0.0</x>
+                </velocity>
+            </config>
+        </Bouncer>
+    </Event>
+    <Event minWave="11" bonus="false" addString="ot">
+        <swivel_turret x="100.0" y="100.0" t="0.0">
+            <config>
+                <orientation>0.0</orientation>
+                <color>RED</color>
+                <angularVelocity>0.0</angularVelocity>
+                <velocity>
+                    <y>0.0</y>
+                    <x>0.0</x>
+                </velocity>
+                <projectile>bullet</projectile>
+                <firePeriod>1.0</firePeriod>
+            </config>
+        </swivel_turret>
+        <swivel_turret x="1100" y="800.0" t="0.0">
+            <config>
+                <orientation>0.0</orientation>
+                <color>RED</color>
+                <angularVelocity>0.0</angularVelocity>
+                <velocity>
+                    <y>0.0</y>
+                    <x>0.0</x>
+                </velocity>
+                <projectile>bullet</projectile>
+                <firePeriod>1.0</firePeriod>
+            </config>
+        </swivel_turret>
+    </Event>
+    <Event minWave="11" bonus="false" addString="o">
+         <square_turret x="100.0" y="100.0" t="0.0">
+            <config>
+                <orientation>0.0</orientation>
+                <color>PINK</color>
+                <angularVelocity>0.0</angularVelocity>
+                <velocity>
+                    <y>0.0</y>
+                    <x>0.0</x>
+                </velocity>
+                <projectile>bullet</projectile>
+                <firePeriod>1.0</firePeriod>
+            </config>
+        </square_turret>
+        <square_turret x="1100.0" y="100.0" t="0.0">
+            <config>
+                <orientation>0.0</orientation>
+                <color>PINK</color>
+                <angularVelocity>0.0</angularVelocity>
+                <velocity>
+                    <y>0.0</y>
+                    <x>0.0</x>
+                </velocity>
+                <projectile>bullet</projectile>
+                <firePeriod>1.0</firePeriod>
+            </config>
+        </square_turret>
+        <square_turret x="1100.0" y="800.0" t="0.0">
+            <config>
+                <orientation>0.0</orientation>
+                <color>PINK</color>
+                <angularVelocity>0.0</angularVelocity>
+                <velocity>
+                    <y>0.0</y>
+                    <x>0.0</x>
+                </velocity>
+                <projectile>bullet</projectile>
+                <firePeriod>1.0</firePeriod>
+            </config>
+        </square_turret>
+        <square_turret x="100.0" y="800.0" t="0.0">
+            <config>
+                <orientation>0.0</orientation>
+                <color>PINK</color>
+                <angularVelocity>0.0</angularVelocity>
+                <velocity>
+                    <y>0.0</y>
+                    <x>0.0</x>
+                </velocity>
+                <projectile>bullet</projectile>
+                <firePeriod>1.0</firePeriod>
+            </config>
+        </square_turret>
+    </Event>
+    <Event minWave="11" bonus="false" addString="it">
+        <swivel_turret x="600.0" y="450.0" t="0.0">
+            <config>
+                <orientation>0.0</orientation>
+                <color>PINK</color>
+                <angularVelocity>0.0</angularVelocity>
+                <velocity>
+                    <y>0.0</y>
+                    <x>0.0</x>
+                </velocity>
+                <projectile>bullet</projectile>
+                <firePeriod>1.0</firePeriod>
+            </config>
+        </swivel_turret>
+    </Event>
+
+    <!-- wave 16-20 introduction of pulsers, grabbers, and splitters-->
+    <Event minWave="16" bonus="false" addString="i">
+        <grabber x="600.0" y="450.0" t="0.0">
+            <config>
+                <orientation>0.0</orientation>
+                <color>GREEN</color>
+                <angularVelocity>0.0</angularVelocity>
+                <velocity>
+                    <y>0.0</y>
+                    <x>0.0</x>
+                </velocity>
+            </config>
+        </grabber>
+    </Event>
+    <Event minWave="16" bonus="false" addString="i">
+        <pulser x="600.0" y="450.0" t="0.0">
+            <config>
+                <orientation>0.0</orientation>
+                <color>PINK</color>
+                <angularVelocity>0.0</angularVelocity>
+                <velocity>
+                    <y>0.0</y>
+                    <x>0.0</x>
+                </velocity>
+            </config>
+        </pulser>
+    </Event>
+    <Event minWave="16" bonus="false" addString="om">
+        <splitter x="150.0" y="150.0" t="0.0">
+            <config>
+                <orientation>0.0</orientation>
+                <color>RED</color>
+                <angularVelocity>0.0</angularVelocity>
+                <velocity>
+                    <y>0.0</y>
+                    <x>0.0</x>
+                </velocity>
+            </config>
+        </splitter>
+        <splitter x="1050.0" y="750.0" t="0.0">
+            <config>
+                <orientation>0.0</orientation>
+                <color>RED</color>
+                <angularVelocity>0.0</angularVelocity>
+                <velocity>
+                    <y>0.0</y>
+                    <x>0.0</x>
+                </velocity>
+            </config>
+        </splitter>
+    </Event>
+    <Event minWave="16" bonus="false" addString="o">
+        <pulser x="100.0" y="800.0" t="0.0">
+            <config>
+                <orientation>0.0</orientation>
+                <color>GREEN</color>
+                <angularVelocity>0.0</angularVelocity>
+                <velocity>
+                    <y>0.0</y>
+                    <x>0.0</x>
+                </velocity>
+            </config>
+        </pulser>
+        <pulser x="1100.0" y="800.0" t="0.0">
+            <config>
+                <orientation>0.0</orientation>
+                <color>GREEN</color>
+                <angularVelocity>0.0</angularVelocity>
+                <velocity>
+                    <y>0.0</y>
+                    <x>0.0</x>
+                </velocity>
+            </config>
+        </pulser>
+        <pulser x="1100.0" y="100.0" t="0.0">
+            <config>
+                <orientation>0.0</orientation>
+                <color>GREEN</color>
+                <angularVelocity>0.0</angularVelocity>
+                <velocity>
+                    <y>0.0</y>
+                    <x>0.0</x>
+                </velocity>
+            </config>
+        </pulser>
+        <pulser x="100.0" y="100.0" t="0.0">
+            <config>
+                <orientation>0.0</orientation>
+                <color>GREEN</color>
+                <angularVelocity>0.0</angularVelocity>
+                <velocity>
+                    <y>0.0</y>
+                    <x>0.0</x>
+                </velocity>
+            </config>
+        </pulser>
+    </Event>
+    <Event minWave="16" bonus="false" addString="o">
+        <pulser x="100.0" y="100.0" t="0.0">
+            <config>
+                <orientation>0.0</orientation>
+                <color>RED</color>
+                <angularVelocity>0.0</angularVelocity>
+                <velocity>
+                    <y>0.0</y>
+                    <x>600.0</x>
+                </velocity>
+            </config>
+        </pulser>
+        <pulser x="100.0" y="800.0" t="0.0">
+            <config>
+                <orientation>0.0</orientation>
+                <color>RED</color>
+                <angularVelocity>0.0</angularVelocity>
+                <velocity>
+                    <y>0.0</y>
+                    <x>600.0</x>
+                </velocity>
+            </config>
+        </pulser>
+    </Event>
+</InfiniteModeConfig>

@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<Scene>
+	<physics>
+		<scenes>
+			<id>main</id>
+			<bounds>
+				<height>900.0</height>
+				<width>1200.0</width>
+				<y>0.0</y>
+				<x>0.0</x>
+			</bounds>
+			<dynamicFriction>0.0</dynamicFriction>
+			<elasticity>0.0</elasticity>
+			<staticFriction>0.0</staticFriction>
+			<margin>64.0</margin>
+			<gravity>
+				<y>-300.0</y>
+				<x>0.0</x>
+			</gravity>
+		</scenes>
+	</physics>
+	<graphics>
+		<screenHeight>960.0</screenHeight>
+		<scenes>
+			<id>default</id>
+			<screen>
+				<position>
+					<y>450.0</y>
+					<x>600.0</x>
+				</position>
+				<orientation>0.0</orientation>
+				<scale>1.0</scale>
+				<useCenter>true</useCenter>
+			</screen>
+			<background>
+				<height>1350.0</height>
+				<texture>wavy_background</texture>
+				<width>1800.0</width>
+				<tiling>false</tiling>
+				<y>-225.0</y>
+				<x>-300.0</x>
+			</background>
+		</scenes>
+		<currentScene>default</currentScene>
+	</graphics>
+	<PauseButton x="-80.0" y="16.0" t="0.0"/>
+	<Puck x="600.0" y="448.0" t="0.0"/>
+	<FpsCounter x="16.0" y="16.0" t="0.0"/>
+</Scene>

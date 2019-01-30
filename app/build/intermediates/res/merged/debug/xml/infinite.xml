@@ -1,0 +1,180 @@
+<?xml version="1.0" ?>
+<Scene>
+	<physics>
+		<scenes>
+			<id>main</id>
+			<bounds>
+				<height>900.0</height>
+				<width>1200.0</width>
+				<y>0.0</y>
+				<x>0.0</x>
+			</bounds>
+			<dynamicFriction>0.0</dynamicFriction>
+			<elasticity>0.0</elasticity>
+			<staticFriction>0.0</staticFriction>
+			<margin>64.0</margin>
+			<gravity>
+				<y>-200.0</y>
+				<x>0.0</x>
+			</gravity>
+		</scenes>
+	</physics>
+	<graphics>
+		<screenHeight>960.0</screenHeight>
+		<scenes>
+			<id>default</id>
+			<screen>
+				<position>
+					<y>450.0</y>
+					<x>600.0</x>
+				</position>
+				<orientation>0.0</orientation>
+				<scale>1.0</scale>
+				<useCenter>true</useCenter>
+			</screen>
+			<background>
+				<height>1350.0</height>
+				<texture>wavy_background</texture>
+				<width>1800.0</width>
+				<tiling>false</tiling>
+				<y>-225.0</y>
+				<x>-300.0</x>
+			</background>
+		</scenes>
+		<currentScene>default</currentScene>
+	</graphics>
+	<InfiniteModeManager x="-251.0" y="184.0" t="0.0">
+		<config>
+			<scoreConfig>
+				<bronze>15000</bronze>
+				<multiComboBonus>10</multiComboBonus>
+				<colorComboEnabled>true</colorComboEnabled>
+				<silver>20000</silver>
+				<colorComboBonus>200</colorComboBonus>
+				<multiHitComboEnabled>true</multiHitComboEnabled>
+				<gold>22500</gold>
+				<infiniteMode>true</infiniteMode>
+			</scoreConfig>
+			<levelMusic>citric_wedge</levelMusic>
+		</config>
+	</InfiniteModeManager>
+	<Puck x="579.0" y="428.0" t="0.0"/>
+	<PauseButton x="1424.0" y="134.99999999999983" t="0.0"/>
+	<FpsCounter x="53.0" y="56.000000000000114" t="0.0"/>
+	<asset type="sound" id="cannon"/>
+	<asset type="texture" id="swivel_turret_pink"/>
+	<asset type="texture" id="flare"/>
+	<asset type="sound" id="metal_hit"/>
+	<asset type="texture" id="arrow"/>
+	<asset type="sound" id="trill_4"/>
+	<asset type="sound" id="blip"/>
+	<asset type="texture" id="turret_single_green"/>
+	<asset type="sound" id="trill_3"/>
+	<asset type="texture" id="clock"/>
+	<asset type="sound" id="grab"/>
+	<asset type="texture" id="block_long_red"/>
+	<asset type="texture" id="exit_icon"/>
+	<asset type="texture" id="box_pink"/>
+	<asset type="texture" id="petal_pink"/>
+	<asset type="texture" id="rocket_green"/>
+	<asset type="music" id="citric_wedge"/>
+	<asset type="sound" id="mirror_break"/>
+	<asset type="texture" id="block_green"/>
+	<asset type="sound" id="concrete_step"/>
+	<asset type="sound" id="end_flourish"/>
+	<asset type="texture" id="block_pink"/>
+	<asset type="texture" id="blank_white"/>
+	<asset type="sound" id="wood_wack"/>
+	<asset type="texture" id="puck"/>
+	<asset type="texture" id="blank_black"/>
+	<asset type="texture" id="bomb"/>
+	<asset type="texture" id="turret_square_red"/>
+	<asset type="texture" id="swivel_turret_red"/>
+	<asset type="texture" id="circle_small"/>
+	<asset type="sound" id="trill_2"/>
+	<asset type="texture" id="explosion_part"/>
+	<asset type="texture" id="grabber_green"/>
+	<asset type="texture" id="grabber_pink"/>
+	<asset type="sound" id="concrete_slap"/>
+	<asset type="sound" id="chime_chord"/>
+	<asset type="texture" id="pulser_green"/>
+	<asset type="texture" id="splitter_red"/>
+	<asset type="texture" id="bouncer_invulnerable"/>
+	<asset type="texture" id="triangle"/>
+	<asset type="texture" id="box_green"/>
+	<asset type="texture" id="time_pickup"/>
+	<asset type="texture" id="block_long_pink"/>
+	<asset type="texture" id="flower_red"/>
+	<asset type="texture" id="petal_red"/>
+	<asset type="texture" id="bouncer_red"/>
+	<asset type="texture" id="turret_square_pink"/>
+	<asset type="texture" id="flower_green"/>
+	<asset type="texture" id="bronze"/>
+	<asset type="texture" id="pause_button"/>
+	<asset type="texture" id="play_button"/>
+	<asset type="sound" id="trill_1"/>
+	<asset type="texture" id="bouncer_pink"/>
+	<asset type="texture" id="next"/>
+	<asset type="texture" id="box_red"/>
+	<asset type="texture" id="pause_menu"/>
+	<asset type="texture" id="rocket_red"/>
+	<asset type="texture" id="rocket_pink"/>
+	<asset type="sound" id="air_horn"/>
+	<asset type="texture" id="options_icon"/>
+	<asset type="texture" id="petal_green"/>
+	<asset type="sound" id="click"/>
+	<asset type="sound" id="crack"/>
+	<asset type="sound" id="fuse"/>
+	<asset type="sound" id="woosh"/>
+	<asset type="texture" id="block_long_green"/>
+	<asset type="sound" id="glass_breaking"/>
+	<asset type="texture" id="restart"/>
+	<asset type="texture" id="wave"/>
+	<asset type="sound" id="arrow_charge"/>
+	<asset type="sound" id="chime"/>
+	<asset type="sound" id="crack_of_branch"/>
+	<asset type="texture" id="splitter_pink"/>
+	<asset type="texture" id="turret_single_red"/>
+	<asset type="texture" id="spark"/>
+	<asset type="texture" id="spinner"/>
+	<asset type="texture" id="turret_single_pink"/>
+	<asset type="texture" id="spiral"/>
+	<asset type="texture" id="circle_large"/>
+	<asset type="sound" id="electric_smash"/>
+	<asset type="texture" id="radial_pulse"/>
+	<asset type="texture" id="arrow_green"/>
+	<asset type="texture" id="splitter_green"/>
+	<asset type="texture" id="unlock"/>
+	<asset type="texture" id="instructions_1"/>
+	<asset type="texture" id="pulser_red"/>
+	<asset type="texture" id="block_red"/>
+	<asset type="texture" id="information_icon"/>
+	<asset type="sound" id="ping"/>
+	<asset type="sound" id="pulser_sound"/>
+	<asset type="sound" id="charge"/>
+	<asset type="texture" id="pink_spinner"/>
+	<asset type="sound" id="metal_impact"/>
+	<asset type="sound" id="messy_splat"/>
+	<asset type="sound" id="splat"/>
+	<asset type="texture" id="grabber_red"/>
+	<asset type="texture" id="arrow_red"/>
+	<asset type="texture" id="pulser_pink"/>
+	<asset type="texture" id="cancel_button"/>
+	<asset type="texture" id="health_pickup"/>
+	<asset type="texture" id="lock"/>
+	<asset type="texture" id="bouncer_green"/>
+	<asset type="texture" id="cross"/>
+	<asset type="texture" id="silver"/>
+	<asset type="texture" id="gold"/>
+	<asset type="sound" id="blast"/>
+	<asset type="texture" id="turret_square_green"/>
+	<asset type="texture" id="back_button"/>
+	<asset type="sound" id="porcelain_break"/>
+	<asset type="sound" id="pulse"/>
+	<asset type="texture" id="flower_pink"/>
+	<asset type="sound" id="crate_break"/>
+	<asset type="texture" id="field"/>
+	<asset type="texture" id="arrow_pink"/>
+	<asset type="texture" id="swivel_turret_green"/>
+	<asset type="texture" id="wavy_background"/>
+</Scene>

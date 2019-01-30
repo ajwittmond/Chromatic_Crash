@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="9c9dea9e85aceb09d95df5e6f7bc8a43fc286068">
+        <dex dex="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-7.3.0_459033f4b8d915d442541606078e3fc542a5be8e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0_0c36110fa26ed88a90ea1ce0be5b7ce23b9a6b3e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="0708ef60917bf94913fe9ef972a655b99462dca7">
+        <dex dex="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-safetynet-7.3.0_702115bc0beb72cfc5f4ab3d61539e6457661668.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="4f4fe3c23776540625f3c2844152a7510fddf9f1">
+        <dex dex="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-fitness-7.3.0_7133f839e70570bfdd0d06f59d7e96014826b24a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.0.0_162ae81a5095c8650c7f0b63c8e5fa8df75eff67.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="0180d031a7b54dabb93b4af3869468b55dc938bd">
+        <dex dex="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appstate-7.3.0_13fd520645100033d8f1c924bffba9ec7a4a0b53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="6046e5cdaf799120b7c56a5a061d80e8854c4d34">
+        <dex dex="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wallet-7.3.0_f40451bd0aa1236b5b41300b15a7bb470a4bab35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="e5bf453b070c1e39297986144960e45afa0fdfad">
+        <dex dex="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-7.3.0_b24e6bf6a4c8d1cc814d1d491264f50a39db79ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="e35fae1b377c23aa5fd2d309a190c2d0f73d54ec">
+        <dex dex="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-7.3.0_1a58b26128d6f8023ae405cadcecfcfc61c2cbb3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="59652857a825fff0de62166fca1bc9553cc01abb">
+        <dex dex="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-plus-7.3.0_e5f25b8e4d98a5f70abc0e54d3024fd8b2020c61.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alexanderwittmond/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0_7097bbdb235fdd68f861a78ed75565a44c1b91d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="fe3e0c6de7cceed888b277487238b6af9a1cc299">
+        <dex dex="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-7.3.0_001d87b2ecc02564aff08fe75d3c6a300d72a5ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a0ce76dfaccbfbd6c551ed2174280aaabe60fe47">
+        <dex dex="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-drive-7.3.0_6583dab71c139de0de3e7790ff7ef1228adf8f58.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="f2f7ec211ce4d244ee97a57523eeb4526dc3cf8a">
+        <dex dex="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-7.3.0_40f8ed2f5145e4f99031a8c4771c7152e4e45cea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="7215ac1f2fca947b9415a6ee2a1bf991364aab24">
+        <dex dex="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-7.3.0_2d8e09e66bd6acb425031a8a8561390eb135deee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="565a01f90f1529f73362707c4c185d0623a68782">
+        <dex dex="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-panorama-7.3.0_f2952eb2910e12462f243770290b1fcb20a2d9d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="e5b9f5b0aa8dee788beb63d23832cb29ce771343">
+        <dex dex="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-7.3.0_e26546108e91108f943e7ddcb97473ac94eecb9a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="5ea948d825957be6c4358c48422bee60eef2d487">
+        <dex dex="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-nearby-7.3.0_0b9c60d022cc8652a9d7f5393a15fd9b6726b490.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="b48d5c51a9a9e329005106b4667f54948de4d4d8">
+        <dex dex="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-identity-7.3.0_d79afa8f7f86705af54508d517e8b25767fe5a2c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="3988694bf9d8186ff97ad5cdfa4ed88b5010fe08">
+        <dex dex="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-7.3.0_cbbd43feafe2a1a2fd3bff5220dc2255922a2de4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="3b4ff5c39dace8f3b4ab4cab8191785547a0815f">
+        <dex dex="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-games-7.3.0_87180424e6b5f78450514079c1df617efa3a0cdf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="b2c07cdb814fe988ad05f7b4d767a841514a5991">
+        <dex dex="/home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-7.3.0_d191441018694a1dcd3febfabe0c223163948f9f.jar" />
+    </item>
+
+</items>

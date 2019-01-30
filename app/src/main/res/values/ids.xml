@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_id">189155234133</string>
+
+    <string name="license_key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA39QKX2K1ZjZmATX2koqmoWMnyUR1Zc6m3DuRieZXrSXjFVwDAUaKeaCfo5tRJ/1LE/i1R07xlrBfodbT2H8YAn5n/BBaNIljPYb43nBw8VDTc+P5z5fn3aFvds2ZqefvcC2t5xxdzI5h7fXSbdrBrbjVAwQrf3xHXcmaVG+1wJdgbBTMYwpJiQd/0nyTOtVxIHVQUweqkGv0DT5U19hTiOVgpy1gQlhzL6QPGMd7wHcSNLafpDTiVK7kgmPWRaZDcEc3P58BY/Ml5FCuI5UIbp1pds+Uuw9iwL+kOOoDmqNYnJGX58D2NPXyp1yo0a5mYQ3gYN+xaHgMGHiKL6CvfwIDAQAB</string>
+
+    <string name="achievement_amateur_1">CgkI1aKf1MAFEAIQHw</string>
+    <string name="achievement_amatuer_2">CgkI1aKf1MAFEAIQIA</string>
+    <string name="achievement_amatuer_3">CgkI1aKf1MAFEAIQIQ</string>
+    <string name="achievement_amatuer_4">CgkI1aKf1MAFEAIQIg</string>
+    <string name="achievement_adept_1">CgkI1aKf1MAFEAIQIw</string>
+    <string name="achievement_adept_2">CgkI1aKf1MAFEAIQJA</string>
+    <string name="achievement_adept_3">CgkI1aKf1MAFEAIQJQ</string>
+    <string name="achievement_adept_4">CgkI1aKf1MAFEAIQJg</string>
+    <string name="achievement_expert_1">CgkI1aKf1MAFEAIQJw</string>
+    <string name="achievement_expert_2">CgkI1aKf1MAFEAIQKA</string>
+    <string name="achievement_expert_3">CgkI1aKf1MAFEAIQKQ</string>
+    <string name="achievement_expert_4">CgkI1aKf1MAFEAIQKg</string>
+    <string name="achievement_full_amatuer">CgkI1aKf1MAFEAIQKw</string>
+    <string name="achievement_full_adept">CgkI1aKf1MAFEAIQLA</string>
+    <string name="achievement_full_expert">CgkI1aKf1MAFEAIQLQ</string>
+    <string name="achievement_infinite_pro">CgkI1aKf1MAFEAIQLg</string>
+    <string name="leaderboard_hit_the_flowers">CgkI1aKf1MAFEAIQAQ</string>
+    <string name="leaderboard_match_three">CgkI1aKf1MAFEAIQBg</string>
+    <string name="leaderboard_floral_display">CgkI1aKf1MAFEAIQBw</string>
+    <string name="leaderboard_bombs_and_flowers">CgkI1aKf1MAFEAIQCA</string>
+    <string name="leaderboard_time_flowers_bombs">CgkI1aKf1MAFEAIQLw</string>
+    <string name="leaderboard_boxes">CgkI1aKf1MAFEAIQCQ</string>
+    <string name="leaderboard_boxes_and_bombs">CgkI1aKf1MAFEAIQCg</string>
+    <string name="leaderboard_arrows">CgkI1aKf1MAFEAIQCw</string>
+    <string name="leaderboard_boxes_and_arows">CgkI1aKf1MAFEAIQDA</string>
+    <string name="leaderboard_boxes_arrows_bombs">CgkI1aKf1MAFEAIQDQ</string>
+    <string name="leaderboard_time_arrows_boxes">CgkI1aKf1MAFEAIQDg</string>
+    <string name="leaderboard_bounce">CgkI1aKf1MAFEAIQDw</string>
+    <string name="leaderboard_brick_break">CgkI1aKf1MAFEAIQEA</string>
+    <string name="leaderboard_time_blocks">CgkI1aKf1MAFEAIQEQ</string>
+    <string name="leaderboard_turret_intro">CgkI1aKf1MAFEAIQEg</string>
+    <string name="leaderboard_2_bouncers">CgkI1aKf1MAFEAIQEw</string>
+    <string name="leaderboard_diagonal">CgkI1aKf1MAFEAIQFA</string>
+    <string name="leaderboard_time_bouncers_turrets">CgkI1aKf1MAFEAIQFQ</string>
+    <string name="leaderboard_splitters_intro">CgkI1aKf1MAFEAIQFg</string>
+    <string name="leaderboard_grabbers_intro">CgkI1aKf1MAFEAIQFw</string>
+    <string name="leaderboard_time_splitters">CgkI1aKf1MAFEAIQGA</string>
+    <string name="leaderboard_splitters_bounders">CgkI1aKf1MAFEAIQGQ</string>
+    <string name="leaderboard_pulsers_intro">CgkI1aKf1MAFEAIQGg</string>
+    <string name="leaderboard_time_pulsers">CgkI1aKf1MAFEAIQGw</string>
+    <string name="leaderboard_rockets_intro">CgkI1aKf1MAFEAIQHA</string>
+    <string name="leaderboard_time_rockets">CgkI1aKf1MAFEAIQHQ</string>
+    <string name="leaderboard_infinite">CgkI1aKf1MAFEAIQHg</string>
+</resources>

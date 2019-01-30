@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Scene>
+	<physics>
+		<scenes>
+			<id>main</id>
+			<bounds>
+				<height>900.0</height>
+				<width>1200.0</width>
+				<y>0.0</y>
+				<x>0.0</x>
+			</bounds>
+			<dynamicFriction>0.0</dynamicFriction>
+			<elasticity>0.0</elasticity>
+			<staticFriction>0.0</staticFriction>
+			<margin>64.0</margin>
+			<gravity>
+				<y>-200.0</y>
+				<x>0.0</x>
+			</gravity>
+		</scenes>
+	</physics>
+	<graphics>
+		<screenHeight>960.0</screenHeight>
+		<scenes>
+			<id>default</id>
+			<screen>
+				<position>
+					<y>450.0</y>
+					<x>600.0</x>
+				</position>
+				<orientation>0.0</orientation>
+				<scale>1.0</scale>
+				<useCenter>true</useCenter>
+			</screen>
+			<background>
+				<height>2000.0</height>
+				<texture>blocks_background</texture>
+				<width>2000.0</width>
+				<tiling>false</tiling>
+				<y>-550.0</y>
+				<x>-400.0</x>
+			</background>
+		</scenes>
+		<currentScene>default</currentScene>
+	</graphics>
+	<Puck x="600.0" y="448.0" t="0.0"/>
+	<PauseButton x="56.74050841100154" y="-100.0" t="1.0"/>
+	<Bouncer x="128.0" y="700.0" t="1.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>RED</color>
+			<speed>500.0</speed>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</Bouncer>
+	<Bouncer x="386.81693611111064" y="700.0" t="1.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>RED</color>
+			<speed>500.0</speed>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</Bouncer>
+	<Bouncer x="645.6079040814191" y="700.0" t="1.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>RED</color>
+			<speed>500.0</speed>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</Bouncer>
+	<Bouncer x="900.0" y="700.0" t="1.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>RED</color>
+			<speed>500.0</speed>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</Bouncer>
+	<Bouncer x="1072.0" y="200.0" t="1.0">
+		<config>
+			<orientation>3.141592653589793</orientation>
+			<color>GREEN</color>
+			<speed>500.0</speed>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</Bouncer>
+	<Bouncer x="815.0576474417544" y="200.0" t="1.0">
+		<config>
+			<orientation>3.141592653589793</orientation>
+			<color>GREEN</color>
+			<speed>500.0</speed>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</Bouncer>
+	<Bouncer x="555.5348394113637" y="200.0" t="1.0">
+		<config>
+			<orientation>3.141592653589793</orientation>
+			<color>GREEN</color>
+			<speed>500.0</speed>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</Bouncer>
+	<Bouncer x="289.1998811325301" y="200.0" t="1.0">
+		<config>
+			<orientation>3.141592653589793</orientation>
+			<color>GREEN</color>
+			<speed>500.0</speed>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</Bouncer>
+	<Bouncer x="300.0" y="451.30056462048253" t="1.0">
+		<config>
+			<orientation>1.5707963267948966</orientation>
+			<color>PINK</color>
+			<speed>500.0</speed>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</Bouncer>
+	<Bouncer x="900.0" y="451.3005646204822" t="1.0">
+		<config>
+			<orientation>-1.5707963267948966</orientation>
+			<color>PINK</color>
+			<speed>500.0</speed>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</Bouncer>
+	<chargeBox x="1100.0" y="100.0" t="1.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</chargeBox>
+	<chargeBox x="1100.0" y="800.0" t="1.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</chargeBox>
+	<chargeBox x="100.0" y="800.0" t="1.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</chargeBox>
+	<chargeBox x="100.0" y="100.0" t="1.0">
+		<config>
+			<orientation>0.0</orientation>
+			<color>PINK</color>
+			<angularVelocity>0.0</angularVelocity>
+			<velocity>
+				<y>0.0</y>
+				<x>0.0</x>
+			</velocity>
+		</config>
+	</chargeBox>
+	<TimeAttackManager x="984.0" y="-132.23638533986275" t="0.0">
+		<config>
+			<timeLimit>60.0</timeLimit>
+			<scoreConfig>
+				<bronze>600</bronze>
+				<multiComboBonus>10</multiComboBonus>
+				<colorComboEnabled>true</colorComboEnabled>
+				<silver>800</silver>
+				<colorComboBonus>200</colorComboBonus>
+				<multiHitComboEnabled>true</multiHitComboEnabled>
+				<gold>1000</gold>
+			</scoreConfig>
+		</config>
+	</TimeAttackManager>
+	<LevelEnd x="1645.3409195094528" y="-232.99165586667937" t="1.25"/>
+</Scene>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Scene>
+    <graphics>
+        <scene id="default">
+            <background texture='blank_black' x='-300' y='-225' width='1800' height='1350' tiling='false'/>
+            <screen useCenter='true'>
+                <position x='600' y='450'/>
+            </screen>
+        </scene>
+    </graphics>
+	<scene_select_manager x="0" y="0"/>
+</Scene>

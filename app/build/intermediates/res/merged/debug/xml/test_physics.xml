@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test_physics>
+    <scene id="first">
+        <bounds>
+            <x>0</x>
+            <y>0</y>
+            <width>900</width>
+            <height>1200</height>
+        </bounds>
+        <gravity x="200" y="300"/>
+        <margin>200</margin>
+    </scene>
+    <scene>
+        <id>second</id>
+        <bounds>
+            <x>230</x>
+            <y>230</y>
+            <width>900</width>
+            <height>1200</height>
+        </bounds>
+        <globalForce x="200" y="300"/>
+        <globalForce x="500" y="100"/>
+        <globalForce x="100" y="100"/>
+        <margin>200</margin>
+        <elasticity value="123" />
+    </scene>
+    <scene>
+        third
+        <bounds width="144" height="1234"/>
+        <globalForce x="-200" y="-300"/>
+        <margin>200</margin>
+        <elasticity value="123" />
+        <dynamicFriction>555</dynamicFriction>
+    </scene>
+</test_physics>

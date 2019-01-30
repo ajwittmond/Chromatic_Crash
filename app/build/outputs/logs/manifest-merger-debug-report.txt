@@ -1,0 +1,120 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:2:1-37:12
+	package
+		ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:3:5-28
+		INJECTED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/7.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-ads:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appstate:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-cast:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-fitness:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-games:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-drive:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-nearby:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-panorama:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-plus:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-wallet:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-identity:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-maps:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-wearable:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:11:2-75
+	android:glEsVersion
+		ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:11:16-48
+	android:required
+		ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:11:49-72
+application
+ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:13:5-35:19
+MERGED from [com.google.android.gms:play-services:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/7.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-ads:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-analytics:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appstate:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-cast:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-fitness:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-games:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-drive:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-gcm:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-location:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-nearby:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-panorama:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-plus:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-wallet:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-identity:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-maps:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-wearable:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:16:9-41
+	android:allowBackup
+		ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:14:9-35
+	android:icon
+		ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:15:9-45
+	android:theme
+		ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:17:9-73
+activity#com.flickshot.FlickShot
+ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:18:9-28:20
+	android:screenOrientation
+		ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:21:13-50
+	android:label
+		ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:20:13-45
+	android:configChanges
+		ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:22:4-65
+	android:name
+		ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:19:13-51
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:26:27-74
+meta-data#com.google.android.gms.games.APP_ID
+ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:29:9-30:46
+	android:value
+		ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:30:13-43
+	android:name
+		ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:29:20-70
+meta-data#com.google.android.gms.version
+ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:31:9-33:69
+MERGED from [com.google.android.gms:play-services-base:7.3.0] /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:33:13-66
+	android:name
+		ADDED from /home/alexanderwittmond/code/andriod_studio_projects/FlickShot/app/src/main/AndroidManifest.xml:32:13-58

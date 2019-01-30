@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<Scene>
+	<physics>
+	</physics>
+	<graphics>
+		<screenHeight>960.0</screenHeight>
+		<scenes>
+			<id>default</id>
+			<screen>
+				<position>
+					<y>450.0</y>
+					<x>600.0</x>
+				</position>
+				<scale>1.0</scale>
+				<orientation>0.0</orientation>
+				<useCenter>true</useCenter>
+			</screen>
+			<background>
+				<height>1350.0</height>
+				<texture>blank_black</texture>
+				<width>1800.0</width>
+				<tiling>false</tiling>
+				<y>-225.0</y>
+				<x>-300.0</x>
+			</background>
+		</scenes>
+		<currentScene>default</currentScene>
+	</graphics>
+	<TitleScreenOverlay x="665.0" y="1060.0" t="0.0"/>
+</Scene>
